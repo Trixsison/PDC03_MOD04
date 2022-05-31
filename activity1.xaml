@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD04.activity1" Title="ListView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="FRUITS" FontSize="Medium"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <ListView>
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>apple</x:String>
+                        <x:String>grape</x:String>
+                        <x:String>orange</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+                
+                
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
